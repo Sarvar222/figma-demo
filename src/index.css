@@ -42,10 +42,10 @@ body {
   justify-content: end;
   padding: 30px 60px;
 }
-nav {
+/* nav {
   display: flex;
   gap: 33px;
-}
+} */
 nav a {
   text-transform: capitalize;
   text-decoration: none;
