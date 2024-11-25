@@ -1,0 +1,252 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1152px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+body {
+  color: #21243d;
+}
+
+.footer-main {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.footer-links {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 26px;
+}
+
+.hamburger {
+  width: 30px;
+  height: 20px;
+  display: none;
+}
+.head-main {
+  display: flex;
+  justify-content: end;
+  padding: 30px 60px;
+}
+nav {
+  display: flex;
+  gap: 33px;
+}
+nav a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+}
+.john-2-mobile {
+  display: none;
+}
+.john-main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+  margin-bottom: 70px;
+}
+.info-title {
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #21243d;
+  max-width: 506px;
+  margin-bottom: 40px;
+}
+.info-wors {
+  font-size: 16px;
+  line-height: 23.5px;
+  color: #21243d;
+  max-width: 497px;
+  margin-bottom: 38px;
+}
+.info-btn {
+  border: none;
+  padding: 10px 20px 10px 20px;
+  background-color: hsl(0, 100%, 70%);
+  color: white;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+.info-btn:hover {
+  background-color: hsl(0, 100%, 60%);
+}
+.john-main-img {
+  object-fit: contain;
+}
+.sec-2 {
+  background-color: #edf7fa;
+}
+.posts {
+  margin-top: 70px;
+}
+.recent-post-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post-info-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.recent-post-main span {
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+}
+.recent-post-main a {
+  color: #00a8cc;
+}
+.post-info-left {
+  max-width: 418px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 70px;
+}
+.post-info-left h3,
+.post-info-right h3 {
+  font-size: 26px;
+  line-height: 38px;
+  color: #21243d;
+  padding: 24px 21px 17px 20px;
+}
+.design-main {
+  display: flex;
+  gap: 26px;
+}
+.design-main time {
+  font-size: 18px;
+  line-height: 26px;
+  padding: 0 21px 11px 20px;
+}
+.post-word {
+  font-size: 16px;
+  line-height: 23px;
+  padding: 0 27px 7px 20px;
+}
+.post-info-right {
+  max-width: 418px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 70px;
+}
+.work {
+  margin-bottom: 150px;
+}
+.works-feature-title {
+  margin-bottom: 22px;
+}
+.works-feature-title span {
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+}
+.darshboard {
+  display: flex;
+  gap: 18px;
+}
+.info-title {
+  font-size: 30px;
+  line-height: 44px;
+  margin-bottom: 16px;
+}
+.info-div {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 17px;
+}
+.info-div span {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 900;
+  background-color: #142850;
+  border-radius: 50%;
+  padding: 4px 25px;
+  color: white;
+}
+.info-div p {
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+}
+.info-words {
+  font-size: 16px;
+  line-height: 23px;
+  color: #21243d;
+  max-width: 594px;
+}
+.hr {
+  margin: 15px 0 30px 0;
+  opacity: 30%;
+}
+.blog-title {
+  font-size: 44px;
+  line-height: 60px;
+  margin-bottom: 55px;
+}
+.blog-info {
+  max-width: 682px;
+}
+.blog-info-title {
+  font-size: 30px;
+  line-height: 44px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.blog-div time {
+  padding-right: 10px;
+  font-size: 20px;
+  line-height: 29px;
+  font-weight: 400px;
+}
+.blog-div span {
+  padding-left: 10px;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+}
+.blog-div {
+  margin-bottom: 15px;
+}
+.blog-words {
+  padding-bottom: 29px;
+}
+.blog-hr {
+  margin-bottom: 32px;
+}
+.end-hr {
+  margin-bottom: 150px;
+}
+.work-title {
+  font-size: 44px;
+  line-height: 60px;
+  margin-bottom: 25px;
+}
+.work-unhidden {
+  display: none;
+}
+
